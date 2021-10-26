@@ -55,6 +55,7 @@
   }
 
   .imageContainer {
-    min-height: 1600px;
+    min-height: 600px;
+    background-color: red;
   }
 }
