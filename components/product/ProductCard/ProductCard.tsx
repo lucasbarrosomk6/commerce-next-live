@@ -43,7 +43,7 @@ const ProductCard: FC<Props> = ({
         {variant === 'slim' && (
           <>
             <div className={s.header}>
-              <span>{product.name}</span>
+              <span>{product.name} witha free sandwich</span>
             </div>
             {product?.images && (
               <Image
@@ -55,6 +55,7 @@ const ProductCard: FC<Props> = ({
                 layout="fixed"
                 {...imgProps}
               />
+              stuff
             )}
           </>
         )}
