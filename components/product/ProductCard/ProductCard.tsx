@@ -55,6 +55,7 @@ const ProductCard: FC<Props> = ({
                 layout="fixed"
                 {...imgProps}
               />
+              stuff
             )}
           </>
         )}
